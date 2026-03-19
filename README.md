@@ -66,8 +66,7 @@ python ga_knapsack.py
 
 **Copy the printed packing list here:**
 ```
-[ PASTE PACKING LIST OUTPUT HERE ]
-  + Water bottle
+ + Water bottle
   + First aid kit
   + Sleeping bag
   + Torch
@@ -78,6 +77,7 @@ python ga_knapsack.py
   + Rope (10 m)
   + Sunscreen
   + Power bank
+  
 ```
 
 **Look at `plots/experiment_1.png` and describe what you see (2–3 sentences).**  
