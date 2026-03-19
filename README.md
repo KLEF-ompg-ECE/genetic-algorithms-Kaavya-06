@@ -42,9 +42,9 @@ next_gen = [best_chromosome[:]]
 
 ```
 [ YOUR ANSWER — 2 to 3 sentences ]
-```
-This line copies the best chromosome from the current generation into the next generation. This process is called elitism. It ensures that the best solution found so far is not lost during crossover or mutation and helps the algorithm converge more reliably.
 
+This line copies the best chromosome from the current generation into the next generation. This process is called elitism. It ensures that the best solution found so far is not lost during crossover or mutation and helps the algorithm converge more reliably.
+```
 ---
 
 ## Experiment 1 — Baseline Run
@@ -84,9 +84,9 @@ python ga_knapsack.py
 *Where does the biggest improvement happen? Does the curve flatten at some point?*
 ```
 [ YOUR OBSERVATION ]
-```
-The graph shows a sharp increase in fitness in the early generations, indicating that the algorithm quickly finds good solutions. After around 10–15 generations, the curve flattens, showing that improvements slow down as the algorithm converges. The best value stabilizes at 77, indicating that an optimal or near-optimal solution has been reached.
 
+The graph shows a sharp increase in fitness in the early generations, indicating that the algorithm quickly finds good solutions. After around 10–15 generations, the curve flattens, showing that improvements slow down as the algorithm converges. The best value stabilizes at 77, indicating that an optimal or near-optimal solution has been reached.
+```
 ---
 
 ## Experiment 2 — Effect of Mutation Rate
@@ -114,9 +114,9 @@ When the mutation rate is very low (0.01), the algorithm quickly converges but g
 **Which mutation_rate gave the best result? Why do you think that is?**
 ```
 [ YOUR ANSWER ]
-```
-The mutation rate of 0.30 gave the best result with a value of 78. This is because the higher mutation rate increases diversity in the population, allowing the algorithm to explore more possible solutions and escape local optima. However, it also introduces instability compared to moderate mutation rates.
 
+The mutation rate of 0.30 gave the best result with a value of 78. This is because the higher mutation rate increases diversity in the population, allowing the algorithm to explore more possible solutions and escape local optima. However, it also introduces instability compared to moderate mutation rates.
+```
 ---
 
 ## Summary
@@ -131,8 +131,9 @@ The mutation rate of 0.30 gave the best result with a value of 78. This is becau
 **In your own words — what is the most important thing you learned about Genetic Algorithms from these experiments? (3–5 sentences)**
 ```
 [ YOUR REFLECTION ]
-```
+
 From these experiments, I learned that mutation rate is a critical parameter in Genetic Algorithms. A low mutation rate reduces diversity and can cause the algorithm to get stuck in local optima. A moderate mutation rate provides a good balance between exploration and exploitation, leading to stable performance. A higher mutation rate increases exploration and can sometimes find better solutions, but may also introduce instability. Therefore, choosing the right mutation rate is essential for achieving optimal results.
+```
 ---
 
 ## Submission Checklist
